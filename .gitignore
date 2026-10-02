@@ -3,15 +3,22 @@ node_modules/
 backend/node_modules/
 frontend/node_modules/
 
-# Environment files containing sensitive API keys
+# Environment files – never commit real secrets
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 backend/.env
 frontend/.env
 
-# Production build artifacts
+# Production build / dist artifacts
+dist/
 frontend/dist/
+
+# Netlify cache & deploy state
+.netlify/
+
+# Zip archives (Netlify function bundles etc.)
+*.zip
 
 # System / Editor files
 .DS_Store
