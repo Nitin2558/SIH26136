@@ -1,0 +1,66 @@
+[
+  {
+    "id": "pmgsy-pwd",
+    "category": "Infrastructure",
+    "keywords": ["road", "pothole", "bridge", "highway", "street light", "streetlight", "construction", "broken pipe"],
+    "portalName": "CPGRAMS Central Public Grievance Portal (Roads & PWD)",
+    "portalUrl": "https://pgportal.gov.in",
+    "department": "Ministry of Road Transport & Highways / State PWD",
+    "description": "Official single-window portal for public infrastructure, road repairs, and local PWD maintenance complaints."
+  },
+  {
+    "id": "jal-jeevan",
+    "category": "Water & Sanitation",
+    "keywords": ["water", "tap", "drinking water", "pipeline", "dirty water", "water supply", "nal"],
+    "portalName": "Jal Shakti & CPGRAMS Water Grievance Portal",
+    "portalUrl": "https://pgportal.gov.in",
+    "department": "Ministry of Jal Shakti",
+    "description": "Direct Ministry of Jal Shakti grievance redressal cell for drinking water and pipe infrastructure."
+  },
+  {
+    "id": "swachh-bharat",
+    "category": "Sanitation",
+    "keywords": ["garbage", "waste", "drainage", "sewer", "cleanliness", "kachra", "safai", "gutter", "overflow"],
+    "portalName": "Swachh Bharat & Urban Affairs Portal (CPGRAMS)",
+    "portalUrl": "https://pgportal.gov.in",
+    "department": "Ministry of Housing & Urban Affairs",
+    "description": "National solid waste, municipal sanitation, and public hygiene portal."
+  },
+  {
+    "id": "cgrf-power",
+    "category": "Energy",
+    "keywords": ["electricity", "power", "light band", "bijli", "transformer", "bill", "power cut", "solar"],
+    "portalName": "Ministry of Power / CGRF Electricity Grievance Portal",
+    "portalUrl": "https://pgportal.gov.in",
+    "department": "Ministry of Power / State Electricity Board",
+    "description": "State discom and Ministry of Power consumer grievance redressal cell."
+  },
+  {
+    "id": "uidai-aadhaar",
+    "category": "Governance & Public Safety",
+    "keywords": ["aadhaar", "aadhar", "uidai", "biometric", "fingerprint", "iris", "otp", "pan card", "voter id", "identity", "verification fail", "verification failed"],
+    "portalName": "UIDAI & CPGRAMS Aadhaar Grievance Cell",
+    "portalUrl": "https://myaadhaar.uidai.gov.in/check-aadhaar-validity",
+    "department": "Unique Identification Authority of India (UIDAI) / MeitY",
+    "description": "Official portal for Aadhaar authentication failures, biometric updates, and identity verification grievances."
+  },
+  {
+    "id": "mygov-citizen",
+    "category": "Governance & Public Safety",
+    "keywords": ["certificate", "ration card", "pension", "license", "challan", "subsidy", "dbt", "epfo", "pf", "passbook", "police"],
+    "portalName": "MyGov & CPGRAMS Citizen Service Cell",
+    "portalUrl": "https://www.mygov.in",
+    "department": "Ministry of Electronics & Information Technology (MeitY)",
+    "description": "National single-window grievance redressal cell for citizen certificates, identity documents, and government service delivery."
+  },
+  {
+    "id": "cpgrams-default",
+    "category": "General",
+    "keywords": [],
+    "portalName": "CPGRAMS National Portal (pgportal.gov.in)",
+    "portalUrl": "https://pgportal.gov.in",
+    "department": "Department of Administrative Reforms & Public Grievances (DARPG)",
+    "description": "Government of India primary single-window public grievance redressal portal."
+  }
+]
+

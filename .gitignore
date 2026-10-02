@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files containing sensitive API keys
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Production build artifacts
+frontend/dist/
+
+# System / Editor files
+.DS_Store
+Thumbs.db
+*.log

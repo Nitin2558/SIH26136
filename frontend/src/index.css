@@ -1,0 +1,262 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Brand Accent Tokens */
+  --brand-navy: #03045e;
+  --brand-ocean: #0077b6;
+  --brand-cyan: #00b4d8;
+  --brand-sky: #90e0ef;
+  --brand-ice: #caf0f8;
+
+  /* Light Theme Variables */
+  --bg-app: #f8fafc;
+  --bg-sidebar: #ffffff;
+  --bg-card: #ffffff;
+  --bg-input: #ffffff;
+  --border-color: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+}
+
+html.dark {
+  /* Dark Theme Variables */
+  --bg-app: #0b0f19;
+  --bg-sidebar: #0f172a;
+  --bg-card: #1e293b;
+  --bg-input: #0f172a;
+  --border-color: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+}
+
+/* Global Body & Root Canvas Styling */
+body {
+  font-family: inherit;
+  min-height: 100vh;
+}
+
+html:not(.dark),
+html:not(.dark) body {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+html.dark,
+html.dark body {
+  background-color: #0b0f19 !important;
+  color: #f8fafc !important;
+}
+
+/* Dark Mode Fallback Overrides for Legacy / Hardcoded Light Classes */
+html.dark .bg-white {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+  color: #f8fafc;
+}
+
+html.dark .bg-\[\#F7F8FA\] {
+  background-color: #0b0f19 !important;
+  color: #f8fafc;
+}
+
+html.dark .border-\[\#E8EAEF\] {
+  border-color: #1e293b !important;
+}
+
+/* Sub-card boxes in Dark Mode */
+html.dark .bg-slate-50,
+html.dark .bg-slate-100,
+html.dark .bg-gray-50,
+html.dark .bg-gray-100 {
+  background-color: #0f172a !important;
+  border-color: #334155 !important;
+  color: #f8fafc;
+}
+
+html.dark .bg-rose-50,
+html.dark .bg-rose-50\/50 {
+  background-color: #4c0519 !important;
+  border-color: #881337 !important;
+  color: #ffe4e6 !important;
+}
+
+html.dark .bg-blue-50,
+html.dark .bg-sky-50,
+html.dark .bg-indigo-50 {
+  background-color: #0f2942 !important;
+  border-color: #1e40af !important;
+  color: #e0f2fe !important;
+}
+
+html.dark .bg-amber-50,
+html.dark .bg-amber-100,
+html.dark .bg-yellow-50 {
+  background-color: #451a03 !important;
+  border-color: #78350f !important;
+  color: #fde68a !important;
+}
+
+html.dark .bg-emerald-50,
+html.dark .bg-emerald-100 {
+  background-color: #064e3b !important;
+  border-color: #065f46 !important;
+  color: #a7f3d0 !important;
+}
+
+/* Light Mode Card Defaults */
+.civic-card,
+.civic-card-interactive {
+  background-color: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  color: #0f172a;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.civic-card:hover {
+  border-color: #0077b6;
+}
+
+/* Dark Mode Cards */
+html.dark .civic-card,
+html.dark .civic-card-interactive {
+  background-color: #1e293b !important;
+  border: 1.5px solid #334155 !important;
+  color: #f8fafc !important;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.4) !important;
+}
+
+html.dark .civic-card:hover {
+  border-color: #00b4d8 !important;
+}
+
+/* Text inside action buttons and colored badges remains WHITE in all themes */
+button.bg-blue-600,
+button.bg-purple-600,
+button.bg-rose-600,
+button.bg-emerald-600,
+button.bg-indigo-600,
+button[class*="bg-[#2563EB]"],
+button[class*="bg-blue-600"],
+.bg-blue-600,
+.bg-purple-600,
+.bg-rose-600,
+.bg-emerald-600,
+.bg-indigo-600,
+[class*="bg-[#2563EB]"] {
+  color: #ffffff !important;
+}
+
+/* Gradient Text */
+.civic-gradient-text {
+  background: linear-gradient(135deg, #03045e 0%, #0077b6 50%, #00b4d8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html.dark .civic-gradient-text {
+  background: linear-gradient(135deg, #caf0f8 0%, #90e0ef 50%, #00b4d8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Inputs & Form Controls */
+input:not([type="checkbox"]):not([type="radio"]), 
+select, 
+textarea {
+  background-color: #ffffff;
+  color: #0f172a;
+  border: 1.5px solid #cbd5e1;
+}
+
+html.dark input:not([type="checkbox"]):not([type="radio"]), 
+html.dark select, 
+html.dark textarea {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  border: 1.5px solid #334155 !important;
+}
+
+/* Primary Action Buttons */
+.bg-blue-600, .bg-blue-700, .bg-indigo-600, [class*="bg-[#2563EB]"] {
+  background-color: #0077b6;
+  color: #ffffff !important;
+}
+
+.hover\:bg-blue-700:hover, .hover\:bg-blue-800:hover, .hover\:bg-indigo-700:hover {
+  background-color: #005f92;
+}
+
+/* Text Selection */
+::selection {
+  background-color: #00b4d8;
+  color: #03045e;
+}
+
+/* Glowing Border Animation */
+@keyframes borderGlowPulse {
+  0% { box-shadow: 0 0 20px rgba(0, 180, 216, 0.7); border-color: #00b4d8; }
+  50% { box-shadow: 0 0 45px rgba(144, 224, 239, 1); border-color: #caf0f8; }
+  100% { box-shadow: 0 0 20px rgba(0, 180, 216, 0.7); border-color: #00b4d8; }
+}
+
+.glowing-logo-border {
+  border: 3px solid #00b4d8;
+  animation: borderGlowPulse 2.2s infinite ease-in-out;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+/* Print Media Styles for Pilot Evidence Dossier */
+@media print {
+  header, aside, nav, footer, .print\:hidden {
+    display: none !important;
+  }
+  body, html, #root, main {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .fixed {
+    position: static !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+  .overflow-hidden, .overflow-y-auto {
+    overflow: visible !important;
+    max-height: none !important;
+  }
+  .rounded-3xl, .rounded-2xl {
+    border-radius: 4px !important;
+  }
+  .shadow-2xl, .shadow-xl, .shadow-md, .shadow-xs {
+    box-shadow: none !important;
+  }
+}

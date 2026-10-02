@@ -1,0 +1,1057 @@
+
+  ! eslint(no-unused-vars): Identifier 'CheckCircle2' is imported but never used.
+   ,-[src/pages/LandingPage.jsx:5:3]
+ 4 |   ArrowRight, 
+ 5 |   CheckCircle2, 
+   :   ^^^^^^|^^^^^
+   :         `-- 'CheckCircle2' is imported here
+ 6 |   ShieldAlert, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'ShieldAlert' is imported but never used.
+   ,-[src/pages/LandingPage.jsx:6:3]
+ 5 |   CheckCircle2, 
+ 6 |   ShieldAlert, 
+   :   ^^^^^|^^^^^
+   :        `-- 'ShieldAlert' is imported here
+ 7 |   Layers, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Layers' is imported but never used.
+   ,-[src/pages/LandingPage.jsx:7:3]
+ 6 |   ShieldAlert, 
+ 7 |   Layers, 
+   :   ^^^|^^
+   :      `-- 'Layers' is imported here
+ 8 |   Cpu, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Cpu' is imported but never used.
+   ,-[src/pages/LandingPage.jsx:8:3]
+ 7 |   Layers, 
+ 8 |   Cpu, 
+   :   ^|^
+   :    `-- 'Cpu' is imported here
+ 9 |   GraduationCap, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'GraduationCap' is imported but never used.
+    ,-[src/pages/LandingPage.jsx:9:3]
+  8 |   Cpu, 
+  9 |   GraduationCap, 
+    :   ^^^^^^|^^^^^^
+    :         `-- 'GraduationCap' is imported here
+ 10 |   Briefcase, 
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Briefcase' is imported but never used.
+    ,-[src/pages/LandingPage.jsx:10:3]
+  9 |   GraduationCap, 
+ 10 |   Briefcase, 
+    :   ^^^^|^^^^
+    :       `-- 'Briefcase' is imported here
+ 11 |   Building2, 
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Building2' is imported but never used.
+    ,-[src/pages/LandingPage.jsx:11:3]
+ 10 |   Briefcase, 
+ 11 |   Building2, 
+    :   ^^^^|^^^^
+    :       `-- 'Building2' is imported here
+ 12 |   CheckSquare, 
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'CheckSquare' is imported but never used.
+    ,-[src/pages/LandingPage.jsx:12:3]
+ 11 |   Building2, 
+ 12 |   CheckSquare, 
+    :   ^^^^^|^^^^^
+    :        `-- 'CheckSquare' is imported here
+ 13 |   TrendingUp, 
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'TrendingUp' is imported but never used.
+    ,-[src/pages/LandingPage.jsx:13:3]
+ 12 |   CheckSquare, 
+ 13 |   TrendingUp, 
+    :   ^^^^^|^^^^
+    :        `-- 'TrendingUp' is imported here
+ 14 |   GitMerge,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'UserCheck' is imported but never used.
+    ,-[src/pages/LandingPage.jsx:16:3]
+ 15 |   ChevronRight,
+ 16 |   UserCheck,
+    :   ^^^^|^^^^
+    :       `-- 'UserCheck' is imported here
+ 17 |   Award
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Award' is imported but never used.
+    ,-[src/pages/LandingPage.jsx:17:3]
+ 16 |   UserCheck,
+ 17 |   Award
+    :   ^^|^^
+    :     `-- 'Award' is imported here
+ 18 | } from 'lucide-react';
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'translateText' is imported but never used.
+   ,-[src/context/LanguageContext.jsx:2:10]
+ 1 | import React, { createContext, useContext, useState, useEffect } from 'react';
+ 2 | import { translateText, SUPPORTED_LANGUAGES } from '../services/translation';
+   :          ^^^^^^|^^^^^^
+   :                `-- 'translateText' is imported here
+ 3 | 
+   `----
+  help: Consider removing this import.
+
+  ! react(only-export-components): Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.
+    ,-[src/context/LanguageContext.jsx:68:14]
+ 67 | 
+ 68 | export const useLanguage = () => useContext(LanguageContext);
+    :              ^^^^^^^^^^^
+    `----
+
+  ! eslint(no-unused-vars): Identifier 'Lightbulb' is imported but never used.
+   ,-[src/pages/UniversityPortalPage.jsx:7:3]
+ 6 |   GraduationCap, 
+ 7 |   Lightbulb, 
+   :   ^^^^|^^^^
+   :       `-- 'Lightbulb' is imported here
+ 8 |   Clock, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'FileCheck' is imported but never used.
+    ,-[src/pages/UniversityPortalPage.jsx:10:3]
+  9 |   Cpu, 
+ 10 |   FileCheck, 
+    :   ^^^^|^^^^
+    :       `-- 'FileCheck' is imported here
+ 11 |   Users, 
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Parameter 'setSelectedProblemId' is declared but never used. Unused parameters should start with a '_'.
+    ,-[src/pages/UniversityPortalPage.jsx:18:54]
+ 17 | 
+ 18 | export const UniversityPortalPage = ({ setActiveTab, setSelectedProblemId, setSelectedTeamId }) => {
+    :                                                      ^^^^^^^^^^|^^^^^^^^^
+    :                                                                `-- 'setSelectedProblemId' is declared here
+ 19 |   const { user } = useAuth();
+    `----
+  help: Consider removing this parameter.
+
+  ! eslint(no-unused-vars): Variable 'openProblems' is declared but never used. Unused variables should start with a '_'.
+    ,-[src/pages/UniversityPortalPage.jsx:20:10]
+ 19 |   const { user } = useAuth();
+ 20 |   const [openProblems, setOpenProblems] = useState([]);
+    :          ^^^^^^|^^^^^
+    :                `-- 'openProblems' is declared here
+ 21 |   const [proposals, setProposals] = useState([]);
+    `----
+  help: Consider removing this declaration.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/UniversityPortalPage.jsx:60:5]
+ 58 | 
+ 59 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 60 |     fetchUniversityData();
+    :     ^^^^^^^^^|^^^^^^^^^
+    :              `-- Avoid calling setState() directly within an effect
+ 61 |   }, []);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! eslint(no-unused-vars): Identifier 'ShieldCheck' is imported but never used.
+   ,-[src/components/ShareEvidenceModal.jsx:2:26]
+ 1 | import React, { useState, useEffect } from 'react';
+ 2 | import { X, Lock, Users, ShieldCheck, Check, AlertTriangle, Trash2, Building2, Calendar, RefreshCw, CheckSquare, Square, Clock } from 'lucide-react';
+   :                          ^^^^^|^^^^^
+   :                               `-- 'ShieldCheck' is imported here
+ 3 | import { useAuth } from '../context/AuthContext';
+   `----
+  help: Consider removing this import.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/components/ShareEvidenceModal.jsx:76:7]
+ 73 | 
+ 74 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 75 |     if (isOpen && evidenceItem) {
+ 76 |       setError('');
+    :       ^^^^|^^^
+    :           `-- Avoid calling setState() directly within an effect
+ 77 |       setSuccessMsg('');
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react-hooks(exhaustive-deps): React Hook useEffect has missing dependencies: 'fetchIndustryPartners', and 'fetchShares'
+    ,-[src/components/ShareEvidenceModal.jsx:82:6]
+ 78 |       setExpiresAt('');
+ 79 |       fetchShares();
+    :       ^^^^^^^^^^^
+ 80 |       fetchIndustryPartners();
+    :       ^^^^^^^^^^^^^^^^^^^^^
+ 81 |     }
+ 82 |   }, [isOpen, evidenceItem]);
+    :      ^^^^^^^^^^^^^^^^^^^^^^
+ 83 | 
+    `----
+  help: Either include it or remove the dependency array.
+
+  ! eslint(no-unused-vars): Parameter 'setActiveTab' is declared but never used. Unused parameters should start with a '_'.
+    ,-[src/pages/ProjectWorkspacePage.jsx:20:48]
+ 19 | 
+ 20 | export const ProjectWorkspacePage = ({ teamId, setActiveTab }) => {
+    :                                                ^^^^^^|^^^^^
+    :                                                      `-- 'setActiveTab' is declared here
+ 21 |   const { user } = useAuth();
+    `----
+  help: Consider removing this parameter.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/ProjectWorkspacePage.jsx:47:5]
+ 45 | 
+ 46 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 47 |     fetchWorkspace();
+    :     ^^^^^^^|^^^^^^
+    :            `-- Avoid calling setState() directly within an effect
+ 48 |   }, [teamId]);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react-hooks(exhaustive-deps): React Hook useEffect has a missing dependency: 'fetchWorkspace'
+    ,-[src/pages/ProjectWorkspacePage.jsx:48:6]
+ 46 |   useEffect(() => {
+ 47 |     fetchWorkspace();
+    :     ^^^^^^^|^^^^^^
+    :            `-- useEffect uses `fetchWorkspace` here
+ 48 |   }, [teamId]);
+    :      ^^^^^^^^
+ 49 | 
+    `----
+  help: Either include it or remove the dependency array.
+
+  ! eslint(no-unused-vars): Identifier 'Eye' is imported but never used.
+   ,-[src/components/SubmitEvidenceModal.jsx:2:139]
+ 1 | import React, { useState } from 'react';
+ 2 | import { X, FileCheck, Link, Upload, Sparkles, CheckCircle2, FileText, Image as ImageIcon, Video, FileSpreadsheet, Trash2, AlertTriangle, Eye } from 'lucide-react';
+   :                                                                                                                                           ^|^
+   :                                                                                                                                            `-- 'Eye' is imported here
+ 3 | import { useAuth } from '../context/AuthContext';
+   `----
+  help: Consider removing this import.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+   ,-[src/components/ApplyProposalModal.jsx:7:35]
+ 6 | 
+ 7 |   const [teamName, setTeamName] = useState('Vardhaman AI & Hydrology Lab');
+   :                                   ^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^
+   :                                                       `-- This Hook call is not reachable on every render path.
+ 8 |   const [universityName, setUniversityName] = useState('IIT Bombay');
+   `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+   ,-[src/components/ApplyProposalModal.jsx:8:47]
+ 7 |   const [teamName, setTeamName] = useState('Vardhaman AI & Hydrology Lab');
+ 8 |   const [universityName, setUniversityName] = useState('IIT Bombay');
+   :                                               ^^^^^^^^^^^|^^^^^^^^^^
+   :                                                          `-- This Hook call is not reachable on every render path.
+ 9 |   const [leadStudentName, setLeadStudentName] = useState('Priya Patel');
+   `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:9:49]
+  8 |   const [universityName, setUniversityName] = useState('IIT Bombay');
+  9 |   const [leadStudentName, setLeadStudentName] = useState('Priya Patel');
+    :                                                 ^^^^^^^^^^^|^^^^^^^^^^^
+    :                                                            `-- This Hook call is not reachable on every render path.
+ 10 |   const [facultyAdvisor, setFacultyAdvisor] = useState('Prof. R. V. Kulkarni');
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:10:47]
+  9 |   const [leadStudentName, setLeadStudentName] = useState('Priya Patel');
+ 10 |   const [facultyAdvisor, setFacultyAdvisor] = useState('Prof. R. V. Kulkarni');
+    :                                               ^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^
+    :                                                               `-- This Hook call is not reachable on every render path.
+ 11 |   const [proposalText, setProposalText] = useState(
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:11:43]
+ 10 |       const [facultyAdvisor, setFacultyAdvisor] = useState('Prof. R. V. Kulkarni');
+ 11 | ,->   const [proposalText, setProposalText] = useState(
+ 12 | |       'We propose deploying a dual-band millimeter-wave radar sensor network coupled with a Temporal Convolutional Network (TCN) deep learning model to forecast surge waves 4 hours before crest arrival.'
+ 13 | |->   );
+    : `---- This Hook call is not reachable on every render path.
+ 14 |       const [estimatedWeeks, setEstimatedWeeks] = useState(12);
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:14:47]
+ 13 |   );
+ 14 |   const [estimatedWeeks, setEstimatedWeeks] = useState(12);
+    :                                               ^^^^^^|^^^^^
+    :                                                     `-- This Hook call is not reachable on every render path.
+ 15 |   const [requestedFunding, setRequestedFunding] = useState(350000);
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:15:51]
+ 14 |   const [estimatedWeeks, setEstimatedWeeks] = useState(12);
+ 15 |   const [requestedFunding, setRequestedFunding] = useState(350000);
+    :                                                   ^^^^^^^^|^^^^^^^
+    :                                                           `-- This Hook call is not reachable on every render path.
+ 16 |   const [teamMembersStr, setTeamMembersStr] = useState('Priya Patel (Lead), Aman Verma (IoT), Neha Gupta (ML)');
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:16:47]
+ 15 |   const [requestedFunding, setRequestedFunding] = useState(350000);
+ 16 |   const [teamMembersStr, setTeamMembersStr] = useState('Priya Patel (Lead), Aman Verma (IoT), Neha Gupta (ML)');
+    :                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    :                                                                               `-- This Hook call is not reachable on every render path.
+ 17 |   const [loading, setLoading] = useState(false);
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:17:33]
+ 16 |   const [teamMembersStr, setTeamMembersStr] = useState('Priya Patel (Lead), Aman Verma (IoT), Neha Gupta (ML)');
+ 17 |   const [loading, setLoading] = useState(false);
+    :                                 ^^^^^^^|^^^^^^^
+    :                                        `-- This Hook call is not reachable on every render path.
+ 18 |   const [error, setError] = useState('');
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/ApplyProposalModal.jsx:18:29]
+ 17 |   const [loading, setLoading] = useState(false);
+ 18 |   const [error, setError] = useState('');
+    :                             ^^^^^^|^^^^^
+    :                                   `-- This Hook call is not reachable on every render path.
+ 19 | 
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  ! eslint(no-unused-vars): Identifier 'Award' is imported but never used.
+   ,-[src/pages/GovernmentDashboardPage.jsx:8:3]
+ 7 |   Zap, 
+ 8 |   Award, 
+   :   ^^|^^
+   :     `-- 'Award' is imported here
+ 9 |   MapPin, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'MapPin' is imported but never used.
+    ,-[src/pages/GovernmentDashboardPage.jsx:9:3]
+  8 |   Award, 
+  9 |   MapPin, 
+    :   ^^^|^^
+    :      `-- 'MapPin' is imported here
+ 10 |   FileText, 
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'FileText' is imported but never used.
+    ,-[src/pages/GovernmentDashboardPage.jsx:10:3]
+  9 |   MapPin, 
+ 10 |   FileText, 
+    :   ^^^^|^^^
+    :       `-- 'FileText' is imported here
+ 11 |   ExternalLink,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'ExternalLink' is imported but never used.
+    ,-[src/pages/GovernmentDashboardPage.jsx:11:3]
+ 10 |   FileText, 
+ 11 |   ExternalLink,
+    :   ^^^^^^|^^^^^
+    :         `-- 'ExternalLink' is imported here
+ 12 |   ShieldCheck
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Variable 'selectedStateFilter' is declared but never used. Unused variables should start with a '_'.
+    ,-[src/pages/GovernmentDashboardPage.jsx:20:10]
+ 19 |   const [loading, setLoading] = useState(true);
+ 20 |   const [selectedStateFilter, setSelectedStateFilter] = useState('All');
+    :          ^^^^^^^^^|^^^^^^^^^
+    :                   `-- 'selectedStateFilter' is declared here
+ 21 |   const [fastTrackSuccess, setFastTrackSuccess] = useState('');
+    `----
+  help: Consider removing this declaration.
+
+  ! eslint(no-unused-vars): Variable 'setSelectedStateFilter' is declared but never used. Unused variables should start with a '_'.
+    ,-[src/pages/GovernmentDashboardPage.jsx:20:31]
+ 19 |   const [loading, setLoading] = useState(true);
+ 20 |   const [selectedStateFilter, setSelectedStateFilter] = useState('All');
+    :                               ^^^^^^^^^^^|^^^^^^^^^^
+    :                                          `-- 'setSelectedStateFilter' is declared here
+ 21 |   const [fastTrackSuccess, setFastTrackSuccess] = useState('');
+    `----
+  help: Consider removing this declaration.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/GovernmentDashboardPage.jsx:46:5]
+ 44 | 
+ 45 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 46 |     setLoading(true);
+    :     ^^^^^|^^^^
+    :          `-- Avoid calling setState() directly within an effect
+ 47 |     Promise.all([
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! eslint(no-unused-vars): Parameter 'setSelectedProblemId' is declared but never used. Unused parameters should start with a '_'.
+    ,-[src/pages/SubmitProblemPage.jsx:15:51]
+ 14 | 
+ 15 | export const SubmitProblemPage = ({ setActiveTab, setSelectedProblemId }) => {
+    :                                                   ^^^^^^^^^^|^^^^^^^^^
+    :                                                             `-- 'setSelectedProblemId' is declared here
+ 16 |   const { user } = useAuth();
+    `----
+  help: Consider removing this parameter.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+   ,-[src/components/AttachIndustryModal.jsx:7:57]
+ 6 | 
+ 7 |   const [industryPartnerName, setIndustryPartnerName] = useState('TechCorp Innovations & CleanTech Fund');
+   :                                                         ^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^
+   :                                                                                 `-- This Hook call is not reachable on every render path.
+ 8 |   const [committedResources, setCommittedResources] = useState('₹3,50,000 Milestone Grant + AWS GPU Credits ($5000)');
+   `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+   ,-[src/components/AttachIndustryModal.jsx:8:55]
+ 7 |   const [industryPartnerName, setIndustryPartnerName] = useState('TechCorp Innovations & CleanTech Fund');
+ 8 |   const [committedResources, setCommittedResources] = useState('₹3,50,000 Milestone Grant + AWS GPU Credits ($5000)');
+   :                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   :                                                                                      `-- This Hook call is not reachable on every render path.
+ 9 |   const [mentorName, setMentorName] = useState('Anil Mehta (VP Engineering)');
+   `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/AttachIndustryModal.jsx:9:39]
+  8 |   const [committedResources, setCommittedResources] = useState('₹3,50,000 Milestone Grant + AWS GPU Credits ($5000)');
+  9 |   const [mentorName, setMentorName] = useState('Anil Mehta (VP Engineering)');
+    :                                       ^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^
+    :                                                          `-- This Hook call is not reachable on every render path.
+ 10 |   const [loading, setLoading] = useState(false);
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/AttachIndustryModal.jsx:10:33]
+  9 |   const [mentorName, setMentorName] = useState('Anil Mehta (VP Engineering)');
+ 10 |   const [loading, setLoading] = useState(false);
+    :                                 ^^^^^^^|^^^^^^^
+    :                                        `-- This Hook call is not reachable on every render path.
+ 11 |   const [error, setError] = useState('');
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/AttachIndustryModal.jsx:11:29]
+ 10 |   const [loading, setLoading] = useState(false);
+ 11 |   const [error, setError] = useState('');
+    :                             ^^^^^^|^^^^^
+    :                                   `-- This Hook call is not reachable on every render path.
+ 12 | 
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  ! eslint(no-unused-vars): Identifier 'Sparkles' is imported but never used.
+   ,-[src/pages/ImpactLeaderboardPage.jsx:8:3]
+ 7 |   CheckCircle2, 
+ 8 |   Sparkles, 
+   :   ^^^^|^^^
+   :       `-- 'Sparkles' is imported here
+ 9 |   ExternalLink,
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'ExternalLink' is imported but never used.
+    ,-[src/pages/ImpactLeaderboardPage.jsx:9:3]
+  8 |   Sparkles, 
+  9 |   ExternalLink,
+    :   ^^^^^^|^^^^^
+    :         `-- 'ExternalLink' is imported here
+ 10 |   DollarSign,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'DollarSign' is imported but never used.
+    ,-[src/pages/ImpactLeaderboardPage.jsx:10:3]
+  9 |   ExternalLink,
+ 10 |   DollarSign,
+    :   ^^^^^|^^^^
+    :        `-- 'DollarSign' is imported here
+ 11 |   Briefcase
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Clock' is imported but never used.
+   ,-[src/pages/CitizenDashboardPage.jsx:5:3]
+ 4 |   UserCheck, 
+ 5 |   Clock, 
+   :   ^^|^^
+   :     `-- 'Clock' is imported here
+ 6 |   CheckCircle2, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'CheckCircle2' is imported but never used.
+   ,-[src/pages/CitizenDashboardPage.jsx:6:3]
+ 5 |   Clock, 
+ 6 |   CheckCircle2, 
+   :   ^^^^^^|^^^^^
+   :         `-- 'CheckCircle2' is imported here
+ 7 |   AlertTriangle, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'AlertTriangle' is imported but never used.
+   ,-[src/pages/CitizenDashboardPage.jsx:7:3]
+ 6 |   CheckCircle2, 
+ 7 |   AlertTriangle, 
+   :   ^^^^^^|^^^^^^
+   :         `-- 'AlertTriangle' is imported here
+ 8 |   Info, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Info' is imported but never used.
+   ,-[src/pages/CitizenDashboardPage.jsx:8:3]
+ 7 |   AlertTriangle, 
+ 8 |   Info, 
+   :   ^^|^
+   :     `-- 'Info' is imported here
+ 9 |   ArrowRight,
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'ArrowRight' is imported but never used.
+    ,-[src/pages/CitizenDashboardPage.jsx:9:3]
+  8 |   Info, 
+  9 |   ArrowRight,
+    :   ^^^^^|^^^^
+    :        `-- 'ArrowRight' is imported here
+ 10 |   Sparkles,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Sparkles' is imported but never used.
+    ,-[src/pages/CitizenDashboardPage.jsx:10:3]
+  9 |   ArrowRight,
+ 10 |   Sparkles,
+    :   ^^^^|^^^
+    :       `-- 'Sparkles' is imported here
+ 11 |   Building2,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Building2' is imported but never used.
+    ,-[src/pages/CitizenDashboardPage.jsx:11:3]
+ 10 |   Sparkles,
+ 11 |   Building2,
+    :   ^^^^|^^^^
+    :       `-- 'Building2' is imported here
+ 12 |   GraduationCap
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'GraduationCap' is imported but never used.
+    ,-[src/pages/CitizenDashboardPage.jsx:12:3]
+ 11 |   Building2,
+ 12 |   GraduationCap
+    :   ^^^^^^|^^^^^^
+    :         `-- 'GraduationCap' is imported here
+ 13 | } from 'lucide-react';
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Parameter 'setSelectedProblemId' is declared but never used. Unused parameters should start with a '_'.
+    ,-[src/pages/CitizenDashboardPage.jsx:15:54]
+ 14 | 
+ 15 | export const CitizenDashboardPage = ({ setActiveTab, setSelectedProblemId }) => {
+    :                                                      ^^^^^^^^^^|^^^^^^^^^
+    :                                                                `-- 'setSelectedProblemId' is declared here
+ 16 |   const { user } = useAuth();
+    `----
+  help: Consider removing this parameter.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/CitizenDashboardPage.jsx:33:5]
+ 31 | 
+ 32 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 33 |     fetchMySubmissions();
+    :     ^^^^^^^^^|^^^^^^^^
+    :              `-- Avoid calling setState() directly within an effect
+ 34 |   }, [user]);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react-hooks(exhaustive-deps): React Hook useEffect has a missing dependency: 'fetchMySubmissions'
+    ,-[src/pages/CitizenDashboardPage.jsx:34:6]
+ 32 |   useEffect(() => {
+ 33 |     fetchMySubmissions();
+    :     ^^^^^^^^^|^^^^^^^^
+    :              `-- useEffect uses `fetchMySubmissions` here
+ 34 |   }, [user]);
+    :      ^^^^^^
+ 35 | 
+    `----
+  help: Either include it or remove the dependency array.
+
+  ! eslint(no-unused-vars): Parameter 'setActiveTab' is declared but never used. Unused parameters should start with a '_'.
+   ,-[src/pages/AdminDashboardPage.jsx:5:38]
+ 4 | 
+ 5 | export const AdminDashboardPage = ({ setActiveTab }) => {
+   :                                      ^^^^^^|^^^^^
+   :                                            `-- 'setActiveTab' is declared here
+ 6 |   const { user } = useAuth();
+   `----
+  help: Consider removing this parameter.
+
+  ! eslint(no-unused-vars): Variable 'user' is declared but never used. Unused variables should start with a '_'.
+   ,-[src/pages/AdminDashboardPage.jsx:6:11]
+ 5 | export const AdminDashboardPage = ({ setActiveTab }) => {
+ 6 |   const { user } = useAuth();
+   :           ^^|^
+   :             `-- 'user' is declared here
+ 7 |   const [usersList, setUsersList] = useState([]);
+   `----
+  help: Consider removing this declaration.
+
+  ! eslint(no-unused-vars): Variable 'data' is declared but never used. Unused variables should start with a '_'.
+    ,-[src/pages/AdminDashboardPage.jsx:39:13]
+ 38 | 
+ 39 |       const data = await res.json();
+    :             ^^|^
+    :               `-- 'data' is declared here
+ 40 |       if (res.ok) {
+    `----
+  help: Consider removing this declaration.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/AdminDashboardPage.jsx:27:5]
+ 25 | 
+ 26 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 27 |     fetchData();
+    :     ^^^^|^^^^
+    :         `-- Avoid calling setState() directly within an effect
+ 28 |   }, []);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react(only-export-components): Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.
+    ,-[src/context/ThemeContext.jsx:43:14]
+ 42 | 
+ 43 | export const useTheme = () => useContext(ThemeContext);
+    :              ^^^^^^^^
+    `----
+
+  ! eslint(no-unused-vars): Identifier 'Database' is imported but never used.
+   ,-[src/components/ResearchEvidenceSection.jsx:5:3]
+ 4 |   FileText, 
+ 5 |   Database, 
+   :   ^^^^|^^^
+   :       `-- 'Database' is imported here
+ 6 |   Video, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Video' is imported but never used.
+   ,-[src/components/ResearchEvidenceSection.jsx:6:3]
+ 5 |   Database, 
+ 6 |   Video, 
+   :   ^^|^^
+   :     `-- 'Video' is imported here
+ 7 |   CheckCircle2, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'CheckCircle2' is imported but never used.
+   ,-[src/components/ResearchEvidenceSection.jsx:7:3]
+ 6 |   Video, 
+ 7 |   CheckCircle2, 
+   :   ^^^^^^|^^^^^
+   :         `-- 'CheckCircle2' is imported here
+ 8 |   Clock, 
+   `----
+  help: Consider removing this import.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/components/ResearchEvidenceSection.jsx:52:5]
+ 50 | 
+ 51 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 52 |     fetchEvidence();
+    :     ^^^^^^|^^^^^^
+    :           `-- Avoid calling setState() directly within an effect
+ 53 |   }, [user]);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react-hooks(exhaustive-deps): React Hook useEffect has a missing dependency: 'fetchEvidence'
+    ,-[src/components/ResearchEvidenceSection.jsx:53:6]
+ 51 |   useEffect(() => {
+ 52 |     fetchEvidence();
+    :     ^^^^^^|^^^^^^
+    :           `-- useEffect uses `fetchEvidence` here
+ 53 |   }, [user]);
+    :      ^^^^^^
+ 54 | 
+    `----
+  help: Either include it or remove the dependency array.
+
+  ! react(jsx-no-undef): 'X' is not defined.
+     ,-[src/components/ResearchEvidenceSection.jsx:431:18]
+ 430 |               >
+ 431 |                 <X className="w-5 h-5" />
+     :                  ^
+ 432 |               </button>
+     `----
+
+  ! eslint(no-unused-vars): Identifier 'Eye' is imported but never used.
+    ,-[src/pages/IndustryPortalPage.jsx:14:3]
+ 13 |   GraduationCap,
+ 14 |   Eye,
+    :   ^|^
+    :    `-- 'Eye' is imported here
+ 15 |   CheckCircle2,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'CheckCircle2' is imported but never used.
+    ,-[src/pages/IndustryPortalPage.jsx:15:3]
+ 14 |   Eye,
+ 15 |   CheckCircle2,
+    :   ^^^^^^|^^^^^
+    :         `-- 'CheckCircle2' is imported here
+ 16 |   Clock,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'Clock' is imported but never used.
+    ,-[src/pages/IndustryPortalPage.jsx:16:3]
+ 15 |   CheckCircle2,
+ 16 |   Clock,
+    :   ^^|^^
+    :     `-- 'Clock' is imported here
+ 17 |   Sparkles
+    `----
+  help: Consider removing this import.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/IndustryPortalPage.jsx:49:5]
+ 47 | 
+ 48 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 49 |     fetchIndustryData();
+    :     ^^^^^^^^|^^^^^^^^
+    :             `-- Avoid calling setState() directly within an effect
+ 50 |   }, []);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/NeedsReviewPage.jsx:33:5]
+ 31 | 
+ 32 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 33 |     fetchQueue();
+    :     ^^^^^|^^^^
+    :          `-- Avoid calling setState() directly within an effect
+ 34 |   }, []);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! eslint(no-unused-vars): Identifier 'ExternalLink' is imported but never used.
+   ,-[src/components/SolutionSubmissionModal.jsx:2:39]
+ 1 | import React, { useState } from 'react';
+ 2 | import { Award, Send, AlertCircle, X, ExternalLink } from 'lucide-react';
+   :                                       ^^^^^^|^^^^^
+   :                                             `-- 'ExternalLink' is imported here
+ 3 | 
+   `----
+  help: Consider removing this import.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/SolutionSubmissionModal.jsx:7:33]
+  6 |     
+  7 | ,->   const [summary, setSummary] = useState(
+  8 | |       'Developed and field-validated the Vardhaman River-AI Flood Early Warning System. Deployed 5 LoRaWAN solar radar nodes along the river basin delivering 4-hour advance crest notifications with 94.2% predictive precision.'
+  9 | |->   );
+    : `---- This Hook call is not reachable on every render path.
+ 10 |       const [artifactsUrl, setArtifactsUrl] = useState('https://github.com/iitb-vardhaman/mula-mutha-flood-ai');
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/SolutionSubmissionModal.jsx:10:43]
+  9 |   );
+ 10 |   const [artifactsUrl, setArtifactsUrl] = useState('https://github.com/iitb-vardhaman/mula-mutha-flood-ai');
+    :                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    :                                                                           `-- This Hook call is not reachable on every render path.
+ 11 |   const [demoUrl, setDemoUrl] = useState('https://mula-mutha-flood-ai.demo.iitb.ac.in');
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/SolutionSubmissionModal.jsx:11:33]
+ 10 |   const [artifactsUrl, setArtifactsUrl] = useState('https://github.com/iitb-vardhaman/mula-mutha-flood-ai');
+ 11 |   const [demoUrl, setDemoUrl] = useState('https://mula-mutha-flood-ai.demo.iitb.ac.in');
+    :                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    :                                                            `-- This Hook call is not reachable on every render path.
+ 12 |   const [loading, setLoading] = useState(false);
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/SolutionSubmissionModal.jsx:12:33]
+ 11 |   const [demoUrl, setDemoUrl] = useState('https://mula-mutha-flood-ai.demo.iitb.ac.in');
+ 12 |   const [loading, setLoading] = useState(false);
+    :                                 ^^^^^^^|^^^^^^^
+    :                                        `-- This Hook call is not reachable on every render path.
+ 13 |   const [error, setError] = useState('');
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  x react-hooks(rules-of-hooks): React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+    ,-[src/components/SolutionSubmissionModal.jsx:13:29]
+ 12 |   const [loading, setLoading] = useState(false);
+ 13 |   const [error, setError] = useState('');
+    :                             ^^^^^^|^^^^^
+    :                                   `-- This Hook call is not reachable on every render path.
+ 14 | 
+    `----
+  help: Move the Hook call before the condition, or call it unconditionally and branch inside the Hook/effect instead.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/PublicFeedPage.jsx:48:5]
+ 46 | 
+ 47 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 48 |     fetchFeed();
+    :     ^^^^|^^^^
+    :         `-- Avoid calling setState() directly within an effect
+ 49 |   }, [category, stateFilter, submitterType]);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react-hooks(exhaustive-deps): React Hook useEffect has a missing dependency: 'fetchFeed'
+    ,-[src/pages/PublicFeedPage.jsx:49:6]
+ 47 |   useEffect(() => {
+ 48 |     fetchFeed();
+    :     ^^^^|^^^^
+    :         `-- useEffect uses `fetchFeed` here
+ 49 |   }, [category, stateFilter, submitterType]);
+    :      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 50 | 
+    `----
+  help: Either include it or remove the dependency array.
+
+  ! eslint(no-unused-vars): Identifier 'CheckCircle2' is imported but never used.
+   ,-[src/components/SharedResearchViewer.jsx:2:109]
+ 1 | import React, { useState, useEffect } from 'react';
+ 2 | import { ShieldCheck, Lock, ExternalLink, Sparkles, Eye, X, Calendar, Building, FileText, UserCheck, Clock, CheckCircle2 } from 'lucide-react';
+   :                                                                                                             ^^^^^^|^^^^^
+   :                                                                                                                   `-- 'CheckCircle2' is imported here
+ 3 | import { useAuth } from '../context/AuthContext';
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Catch parameter 'err' is caught but never used.
+     ,-[src/components/SharedResearchViewer.jsx:344:38]
+ 343 |                               }
+ 344 |                             } catch (err) {
+     :                                      ^|^
+     :                                       `-- 'err' is declared here
+ 345 |                               alert('Error generating temporary signed URL.');
+     `----
+  help: Consider handling this error.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/components/SharedResearchViewer.jsx:36:5]
+ 34 | 
+ 35 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 36 |     fetchSharedEvidence();
+    :     ^^^^^^^^^|^^^^^^^^^
+    :              `-- Avoid calling setState() directly within an effect
+ 37 |   }, [user]);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react-hooks(exhaustive-deps): React Hook useEffect has a missing dependency: 'fetchSharedEvidence'
+    ,-[src/components/SharedResearchViewer.jsx:37:6]
+ 35 |   useEffect(() => {
+ 36 |     fetchSharedEvidence();
+    :     ^^^^^^^^^|^^^^^^^^^
+    :              `-- useEffect uses `fetchSharedEvidence` here
+ 37 |   }, [user]);
+    :      ^^^^^^
+ 38 | 
+    `----
+  help: Either include it or remove the dependency array.
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/pages/ProblemDetailPage.jsx:32:5]
+ 30 | 
+ 31 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 32 |     fetchDetail();
+    :     ^^^^^|^^^^^
+    :          `-- Avoid calling setState() directly within an effect
+ 33 |   }, [problemId]);
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react-hooks(exhaustive-deps): React Hook useEffect has a missing dependency: 'fetchDetail'
+    ,-[src/pages/ProblemDetailPage.jsx:33:6]
+ 31 |   useEffect(() => {
+ 32 |     fetchDetail();
+    :     ^^^^^|^^^^^
+    :          `-- useEffect uses `fetchDetail` here
+ 33 |   }, [problemId]);
+    :      ^^^^^^^^^^^
+ 34 | 
+    `----
+  help: Either include it or remove the dependency array.
+
+  ! react(only-export-components): Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.
+   ,-[src/context/AuthContext.jsx:5:14]
+ 4 | 
+ 5 | export const DEMO_USER_PERSONAS = {
+   :              ^^^^^^^^^^^^^^^^^^
+ 6 |   citizen: {
+   `----
+
+  ! react(only-export-components): Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.
+     ,-[src/context/AuthContext.jsx:175:14]
+ 174 | 
+ 175 | export const useAuth = () => useContext(AuthContext);
+     :              ^^^^^^^
+     `----
+
+  ! eslint(no-unused-vars): Parameter 'problem' is declared but never used. Unused parameters should start with a '_'.
+    ,-[src/components/ClassificationModal.jsx:16:55]
+ 15 | 
+ 16 | export const ClassificationModal = ({ classification, problem, onClose, onViewFeed, onViewTracker, userRole }) => {
+    :                                                       ^^^|^^^
+    :                                                          `-- 'problem' is declared here
+ 17 |   const [showTechnicalDetails, setShowTechnicalDetails] = useState(userRole === 'government' || userRole === 'admin');
+    `----
+  help: Consider removing this parameter.
+
+  ! eslint(no-unused-vars): Identifier 'Home' is imported but never used.
+    ,-[src/components/Sidebar.jsx:18:3]
+ 17 |   UserPlus,
+ 18 |   Home,
+    :   ^^|^
+    :     `-- 'Home' is imported here
+ 19 |   RotateCcw,
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'DEMO_USER_PERSONAS' is imported but never used.
+   ,-[src/pages/LoginPage.jsx:2:19]
+ 1 | import React, { useState } from 'react';
+ 2 | import { useAuth, DEMO_USER_PERSONAS } from '../context/AuthContext';
+   :                   ^^^^^^^^^|^^^^^^^^
+   :                            `-- 'DEMO_USER_PERSONAS' is imported here
+ 3 | import { 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'ShieldCheck' is imported but never used.
+   ,-[src/pages/LoginPage.jsx:8:3]
+ 7 |   Briefcase, 
+ 8 |   ShieldCheck, 
+   :   ^^^^^|^^^^^
+   :        `-- 'ShieldCheck' is imported here
+ 9 |   Sparkles, 
+   `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'ShieldCheck' is imported but never used.
+    ,-[src/components/Navbar.jsx:13:3]
+ 12 |   UserCheck, 
+ 13 |   ShieldCheck, 
+    :   ^^^^^|^^^^^
+    :        `-- 'ShieldCheck' is imported here
+ 14 |   Sparkles, 
+    `----
+  help: Consider removing this import.
+
+  ! eslint(no-unused-vars): Identifier 'User' is imported but never used.
+    ,-[src/components/Navbar.jsx:23:3]
+ 22 |   UserPlus,
+ 23 |   User,
+    :   ^^|^
+    :     `-- 'User' is imported here
+ 24 |   Globe,
+    `----
+  help: Consider removing this import.
+
+Found 80 warnings and 20 errors.
+Finished in 59ms on 33 files with 104 rules using 20 threads.

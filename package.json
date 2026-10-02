@@ -1,0 +1,24 @@
+{
+  "name": "startup-public-procurement-platform-sih26136",
+  "version": "1.0.0",
+  "description": "Startup-Friendly Public Procurement Mechanism Platform (SIH26136)",
+  "main": "backend/index.js",
+  "scripts": {
+    "seed": "cd backend && node seed.js",
+    "build": "npm --prefix frontend run build",
+    "start": "npm run build && cd backend && node index.js",
+    "dev": "npm run build && cd backend && node index.js"
+  },
+  "dependencies": {
+    "serverless-http": "^3.2.0"
+  },
+  "keywords": [
+    "sih26136",
+    "public-procurement",
+    "react",
+    "express",
+    "supabase"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
